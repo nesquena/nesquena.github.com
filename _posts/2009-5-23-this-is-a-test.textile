@@ -1,13 +1,13 @@
 ---
 layout: post
-title: This is a test of posts
+title: This is a test of post functionality
 ---
 
 h1. {{ page.title }}
 
 h2. Testing formatting
 
-This is a test of a post
+This is a test of post creation
 
 {% highlight ruby %}
 class Test
@@ -17,4 +17,4 @@ class Test
 end
 {% endhighlight %}
 
-Some more text.
+Some more text at the bottom.
