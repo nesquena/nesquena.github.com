@@ -10,8 +10,10 @@ h2. Testing formatting
 This is a test of a post
 
 {% highlight ruby %}
-def foo
-  puts 'foo'
+class Test
+  def foo
+    puts 'foo'
+  end
 end
 {% endhighlight %}
 
