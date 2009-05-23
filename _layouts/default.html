@@ -6,8 +6,28 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta name="author" content="Nathan Esquenazi" />
     <title>{{ page.title }}</title>
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+    <!-- Homepage CSS -->
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
   </head>
   <body>
-    {{ content }}
+    <div class="site">
+      <div class="title">
+        <a href="/">Nathan Esquenazi</a>
+        <a class="extra" href="/">home</a>
+      </div>
+
+      {{ content }}
+
+      <div class="footer">
+        <div class="contact">
+          <p>
+            Nathan Esquenazi<br />
+            Lead Software Architect of <a href="http://quub.com/">quub</a>
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

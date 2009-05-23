@@ -5,4 +5,6 @@ title: This is a test of posts
 
 h1. {{ page.title }}
 
+h2. Testing formatting
+
 This is a test of a post
